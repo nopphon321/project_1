@@ -1,0 +1,98 @@
+
+/*************blackground**************/
+body{
+  background: #181717;
+}
+.bg-overlay {
+  background: url("https://lh3.googleusercontent.com/-rl74_YoM6W8/XAD4yMExVxI/AAAAAAAAAgU/-pO7I4l7ZxoTyxPIWdD_mwFlrpo3s8KiQCJoC/w530-h219-n-rw/underwater.jpg") no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  color: rgb(0, 0, 0);
+  height: 100%;
+  
+}
+
+.bg2-overlay {
+   background-color:#181717;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   color: rgb(0, 0, 0);
+ }
+ .bg2 {
+  background-color:#0000004b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: rgb(255, 255, 255);
+  height: 100%;
+}
+
+.text1 {
+
+  color: rgb(0, 0, 0);
+
+}
+ .p-20 {
+  padding-top: 9rem !important;
+  padding-bottom: 9rem !important;
+ }
+ .ptb-10 {
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+ }
+ .py-10 {
+  padding-top: 10rem !important;
+ }
+ .pb-5 {
+  padding-top: 5rem !important;
+ }
+
+.img-2{
+  border-radius:4rem;
+}
+
+
+/**********************/
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
